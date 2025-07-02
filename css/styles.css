@@ -1,0 +1,53 @@
+* {
+    font-family: Arial, san-serif;
+    box-sizing: border-box;
+    /*SI AGREGO PADDING O BORDE, EL ANCHO O ALTO DE MI ELEMENTO SE RESPETA ;) */
+    margin: 0;
+    padding: 0;
+    /*LIMPIEZA DE ESPACIADOS Y MARGENES POR DEFECTO PARA ASI PODER CONFIGURAR LOS MIOS PROPIOS*/
+}
+
+
+header {
+    background-color: rgb(0, 215, 143);
+    padding-bottom: 60px;
+
+    p {
+        color: rgb(0, 215, 143);
+    }
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.cuadroTareas {
+    text-align: center;
+    width: 30%;
+    border: 3px;
+    margin: 30px;
+    padding: 20px;
+    border: 3px solid rgb(193, 71, 0);
+
+    .listaTareas{
+        padding-top: 15px;
+    }
+}
+
+ul{
+    list-style: none;
+}
+
+li {
+    margin: 10px 0;
+}
+
+
+footer{
+    background-color: rgb(0, 215, 143);
+    p{
+    color: rgb(0, 215, 143);
+    }
+}
