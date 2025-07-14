@@ -1,5 +1,4 @@
 * {
-    font-family: Arial, san-serif;
     box-sizing: border-box;
     /*SI AGREGO PADDING O BORDE, EL ANCHO O ALTO DE MI ELEMENTO SE RESPETA ;) */
     margin: 0;
@@ -9,18 +8,76 @@
 
 
 header {
-    background-color: rgb(0, 215, 143);
-    padding-bottom: 60px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7), 0 -6px 12px rgba(0, 0, 0, 0.7);
+    position: relative;
+    z-index: 1;
 
-    p {
-        color: rgb(0, 215, 143);
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+
+        .tittlePage {
+            font-size: 1.8rem;
+            color: #222;
+            text-shadow: 0px 2px 3px #555;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .rightHeaderButtons {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-right: 100px;
+
+            .prices,
+            .login {
+                text-decoration: none;
+                margin-left: 15px;
+                font-size: 1.4rem;
+                color: black;
+                font-weight: 400;
+            }
+
+            .register {
+                color: white;
+                background-color: rgb(255, 99, 9);
+                text-decoration: none;
+                margin-left: 15px;
+                font-size: 1.4rem;
+                font-weight: 400;
+                border: 0px solid black;
+                border-radius: 4px;
+                padding: 5px;
+            }
+
+        }
+
+        select {
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: 400;
+            margin-left: 15px;
+        }
+
+        select:focus {
+            outline: none;
+        }
+
     }
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: rgb(255, 251, 251);
 }
 
 .cuadroTareas {
@@ -31,23 +88,15 @@ main{
     padding: 20px;
     border: 3px solid rgb(193, 71, 0);
 
-    .listaTareas{
+    .listaTareas {
         padding-top: 15px;
     }
 }
 
-ul{
+ul {
     list-style: none;
 }
 
 li {
     margin: 10px 0;
-}
-
-
-footer{
-    background-color: rgb(0, 215, 143);
-    p{
-    color: rgb(0, 215, 143);
-    }
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +8,48 @@
     <script src="./js/scripts.js"></script>
     <title>To-do List</title>
 </head>
+
 <body>
     <header>
-        <p>This is the header</p>
+        <nav class="navbar">
+            <a href="index.html" class="tittlePage">To-do List</a>
+            <div class="rightHeaderButtons">
+                <div class="dropdownButton1">
+                    <select class="selectDropdown" name="language" id="language">
+                        <option value="javascript">JavaScript</option>
+                        <option value="python">Python</option>
+                        <option value="c++">C++</option>
+                        <option value="java">Java</option>
+                    </select>
+                </div>
+                <div class="dropdownButton2">
+                    <select class="selectDropdown" name="language" id="language">
+                        <option value="javascript">JavaScript</option>
+                        <option value="python">Python</option>
+                        <option value="c++">C++</option>
+                        <option value="java">Java</option>
+                    </select>
+                </div>
+                <a class="prices" href="">Precios</a>
+                <a class="login" href="">Iniciar sesión</a>
+                <!-- pendiente hr -->
+                <a class="register" href="">Registrarse</a>
+            </div>
+        </nav>
     </header>
     <main>
         <div class="cuadroTareas">
-            <div class="tituloTareas">
-                <h1>To-do List</h1>
-            </div>
             <div class="listaTareas">
                 <input class="cuadroACompletar" type="text" id="nuevaTarea" placeholder="Enter a new task">
                 <button class="boton" onclick="agregarTarea()"> Add task </button>
                 <ul id="listaTareas">
-                    
+
                 </ul>
             </div>
         </div>
     </main>
     <footer>
-        <p>This is the footer</p>
     </footer>
 </body>
+
 </html>
