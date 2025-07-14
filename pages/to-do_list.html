@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <script src="./js/scripts.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/scripts.js"></script>
     <title>To-do List</title>
 </head>
 
@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar navbar-expand-lg p-0">
             <div class="container-fluid pt-2">
-                <a href="index.html" class="tittlePage ps-3">To-do List</a>
+                <a href="../index.html" class="tittlePage ps-3">To-do List</a>
                 <div class="collapse navbar-collapse d-flex flex-row-reverse pe-5" id="navbarNavDropdown">
                     <ul class="navbar-nav pe-5">
                         <li class="nav-item dropdown pe-3">
@@ -23,7 +23,7 @@
                                 Usos
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./pages/to-do_list.html">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
@@ -54,20 +54,20 @@
             </div>
         </nav>
     </header>
-    <main class="container-fluid">
-        <section class="tituloIndex d-flex flex-row justify-content-center mt-5 ms-5 me-5 p-5">
-            <div class="columnMain1 col-12 col-md-4 me-5">
-                <h1>Tu cerebro es para crear, no para recordar 974 tareas</h1>
-                <h2>Captura todas esas tareas en To-do List y disfruta la sensación de claridad y control.</h2>
+    <main class="mainTo-doList">
+        <div class="cuadroTareas">
+            <div class="listaTareas">
+                <input class="cuadroACompletar" type="text" id="nuevaTarea" placeholder="Enter a new task">
+                <button class="boton" onclick="agregarTarea()"> Add task </button>
+                <ul id="listaTareas">
+
+                </ul>
             </div>
-            <div class="columnMain2 col-12 col-md-4 ms-5">
-                <img class="imgMainSection" src="./assets/img/ilustracion-lista-comprobacion-marca-comprobacion_108061-1694.jpg" alt="Lista de tareas">
-            </div>
-        </section>
+        </div>
     </main>
     <footer>
     </footer>
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

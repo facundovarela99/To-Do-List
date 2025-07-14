@@ -8,77 +8,67 @@
 
 
 header {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7), 0 -6px 12px rgba(0, 0, 0, 0.7);
+    /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7), 0 -6px 12px rgba(0, 0, 0, 0.7); */
     position: relative;
     z-index: 1;
 
-    .navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        background-color: rgb(255, 255, 255);
-        padding: 20px;
+    .tittlePage {
+        font-size: 1.8rem;
+        color: #222;
+        text-shadow: 0px 2px 3px #555;
+        text-decoration: none;
+        padding-left: 80px !important;
+    }
 
-        .tittlePage {
-            font-size: 1.8rem;
-            color: #222;
-            text-shadow: 0px 2px 3px #555;
-            text-decoration: none;
-            margin-right: 20px;
+    .navBarButton {
+        color: black;
+        font-weight: 400;
+        padding: 8px;
+        
+
+        &:hover {
+            background-color: #22222226;
+            border-radius: 6px;
         }
+    }
 
-        .rightHeaderButtons {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
-            margin-right: 100px;
+}
 
-            .prices,
-            .login {
-                text-decoration: none;
-                margin-left: 15px;
-                font-size: 1.4rem;
-                color: black;
-                font-weight: 400;
-            }
-
-            .register {
-                color: white;
-                background-color: rgb(255, 99, 9);
-                text-decoration: none;
-                margin-left: 15px;
-                font-size: 1.4rem;
-                font-weight: 400;
-                border: 0px solid black;
-                border-radius: 4px;
-                padding: 5px;
-            }
-
-        }
-
-        select {
-            border: none;
-            padding: 10px;
-            border-radius: 5px;
-            font-size: 1rem;
-            font-weight: 400;
-            margin-left: 15px;
-        }
-
-        select:focus {
-            outline: none;
-        }
-
+#register {
+    color: white;
+    background-color: rgb(234, 101, 13);
+    text-decoration: none;
+    border: 0px solid black;
+    border-radius: 6px;
+    padding: 8px;
+    &:hover{
+        background-color: rgb(190, 70, 5);
+        border-radius: 6px;
     }
 }
 
-main {
+.mainTo-doList {
     display: flex;
     justify-content: center;
     background-color: rgb(255, 251, 251);
 }
+
+.imgMainSection{
+    width: 100%;
+}
+
+
+.columnMain1{
+    h1{
+        font-size: 4rem;
+        color: #151515;
+    }
+    h2{
+        font-size: 2rem;
+        color: #151515;
+    }
+}
+
 
 .cuadroTareas {
     text-align: center;
