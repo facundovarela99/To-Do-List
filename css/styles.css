@@ -24,7 +24,7 @@ header {
         color: black;
         font-weight: 400;
         padding: 8px;
-        
+
 
         &:hover {
             background-color: #22222226;
@@ -34,6 +34,26 @@ header {
 
 }
 
+h2 {
+    color: #191919a1 !important;
+}
+
+.registerMainSection {
+    width: 30%;
+    color: white;
+    background-color: rgb(234, 101, 13);
+    text-decoration: none;
+    border: 0px solid black;
+    border-radius: 6px;
+    padding: 16px;
+    box-shadow: 0px 10px 2px rgba(0, 0, 0, 0.7), 0 12px 12px rgba(243, 135, 3, 0.945);
+
+    &:hover {
+        background-color: rgb(190, 70, 5);
+        border-radius: 6px;
+    }
+}
+
 #register {
     color: white;
     background-color: rgb(234, 101, 13);
@@ -41,11 +61,13 @@ header {
     border: 0px solid black;
     border-radius: 6px;
     padding: 8px;
-    &:hover{
+
+    &:hover {
         background-color: rgb(190, 70, 5);
         border-radius: 6px;
     }
 }
+
 
 .mainTo-doList {
     display: flex;
@@ -53,17 +75,18 @@ header {
     background-color: rgb(255, 251, 251);
 }
 
-.imgMainSection{
+.imgMainSection {
     width: 100%;
 }
 
 
-.columnMain1{
-    h1{
+.columnMain1 {
+    h1 {
         font-size: 4rem;
         color: #151515;
     }
-    h2{
+
+    h2 {
         font-size: 2rem;
         color: #151515;
     }
