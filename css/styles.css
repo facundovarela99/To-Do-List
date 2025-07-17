@@ -113,3 +113,17 @@ ul {
 li {
     margin: 10px 0;
 }
+
+.miniSection {
+    position: relative;
+    height: 444px;
+    background-image: url("../assets/img/imagenFondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* -webkit-mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    z-index: 0; */
+}
