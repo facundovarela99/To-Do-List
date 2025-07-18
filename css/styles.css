@@ -9,8 +9,10 @@
 
 header {
     /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7), 0 -6px 12px rgba(0, 0, 0, 0.7); */
-    position: relative;
-    z-index: 1;
+    position: sticky;
+    z-index: 1000;
+    background-color: white;
+    top: 0;
 
     .tittlePage {
         font-size: 1.8rem;
@@ -126,4 +128,98 @@ li {
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
     z-index: 0; */
+}
+
+.parrafosMiniSection {
+    font-size: 1.2rem;
+    color: #151515;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.hrParrafos {
+    height: 20vh;
+    width: 0.07vw;
+    border-width: 0;
+    color: #151515;
+    background-color: #151515;
+}
+
+
+.seccionMedio {
+    .textosYVideo {
+        .textos {
+            .textos1 {
+                h3{
+                    font-weight: 700;
+                    color: rgba(0, 0, 0, 0.874);
+                    font-size: 2.3rem;
+                }
+                .parrafoCorto1{
+                    font-size: 1.1rem;
+                    color: #c77b00;
+                    font-weight: 700;
+                }
+
+                .parrafoLargo1 {
+                    font-weight: 500;
+                    color: #25221ea8;
+                    font-size: 1.35rem;
+                    width: 30%;
+                }
+            }
+
+            .textos2 {
+                h3{
+                    font-weight: 700;
+                    color: rgba(0, 0, 0, 0.874);
+                    font-size: 2.3rem;
+                }
+                .parrafoCorto2{
+                    font-size: 1.1rem;
+                    color: #497d7e;
+                    font-weight: 700;
+                }
+
+                .parrafoLargo2{
+                    font-weight: 500;
+                    color: #25221ea8;
+                    font-size: 1.35rem;
+                    width: 30%;
+                }
+            }
+
+            .textos3 {
+                h3{
+                    font-weight: 700;
+                    color: black;
+                }
+                .parrafoCorto3{
+                    color: #e34432;
+                    font-weight: 700;
+                }
+
+                .parrafoLargo3{
+                    width: 28%;
+                    font-weight: 500;
+                }
+            }
+
+            .textos4 {
+                h3{
+                    font-weight: 700;
+                    color: black;
+                }
+                .parrafoCorto4{
+                    color: #4c7a45;
+                    font-weight: 700;
+                }
+
+                .parrafoLargo4{
+                    width: 30%;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
 }
