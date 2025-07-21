@@ -5,7 +5,7 @@ function agregarTarea(){
 
     //Validamos que el valor no sea vacío
     if (nuevaTareaTexto === "") {
-        alert("Please, enter a new task.");
+        alert("Por favor, ingrese una nueva tarea.");
         return;
     }
 

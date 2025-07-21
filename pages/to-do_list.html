@@ -55,13 +55,27 @@
         </nav>
     </header>
     <main class="mainTo-doList">
-        <div class="cuadroTareas">
-            <div class="listaTareas">
-                <input class="cuadroACompletar" type="text" id="nuevaTarea" placeholder="Enter a new task">
-                <button class="boton" onclick="agregarTarea()"> Add task </button>
+        <div class="tituloMain w-100 bg-primary d-flex flex-row">
+            <h1>CHECK LIST DE TAREAS</h1>
+            <img class="checklist-icon" src="../assets/img/checklist-icon.png" alt="">
+            <img class="checklist-icon" src="../assets/img/checklist-icon-2.png" alt="">
+        </div>
+        <div class="cuadroListas">
+            <div class="cuadroAgregarTarea">
+                <div>
+                    <input class="cuadroACompletar" type="text" id="nuevaTarea" placeholder="Ingrese una nueva tarea">
+                    <button class="botonAgregarTarea" onclick="agregarTarea()"> Agregar tarea </button>
+                </div>
+            </div>
+            <div class="titulosPreLista">
+                <h2>LISTA DE TAREAS</h2>
+                <h2>PROGRESO</h2>
+            </div>
+            <div class="divLista">
                 <ul id="listaTareas">
-
+        
                 </ul>
+                <div class="cuadroProgreso">asd</div>
             </div>
         </div>
     </main>
