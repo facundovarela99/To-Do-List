@@ -262,15 +262,17 @@ li {
 
 }
 
-.titulosPreLista{
+.titulosPreLista {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    h2{
+
+    h2 {
         color: #151515 !important;
     }
 }
+
 .divLista {
     background-color: #4c7a45;
     width: 100%;
@@ -280,14 +282,25 @@ li {
 }
 
 #listaTareas {
-    width: 50%;
+    width: 75%;
     background-color: #e34432;
-    padding-top: 15px;
-    padding-left: 10%;
-    border: 3px solid brown;
-    margin: 30px;
+
 }
-.cuadroProgreso{
-    width: 50%;
+
+.elementoLista {
+    border: 1px solid brown;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+.botonEliminar,.botonProgreso1 {
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cuadroProgreso {
+    width: 25%;
     background-color: chartreuse;
 }
